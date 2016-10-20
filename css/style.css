@@ -1,0 +1,125 @@
+/********************
+Grid:
+- 1140 pixels wide
+- 20 pixels padding
+- 4 columns
+
+.grid{width:1140px; height:890px;}
+
+.x0{left: 20px;}
+.x1{left: 310px;}
+.x2{left: 600px;}
+.x3{left: 890px;}
+
+.y0{top: 20px;}
+.y1{top: 310px;}
+.y2{top: 600px;}
+.y3{top: 890px;}
+
+********************/
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	color: white;
+	background-image:url(../images/bg.jpg);
+}
+.grid{
+	width: 1140px;
+	height: 890px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 40px;
+	position: relative;
+	border-radius: 10px;
+	background-color: #4a395d;
+}
+.tile {
+	background-color: #352353;
+	position:absolute;
+	width: 270px;
+}
+
+/* Layout per tile */
+
+#tile1{
+	top: 20px;
+	left: 20px;
+	width: 270px;
+	height: 270px;
+}
+#tile2{
+	top: 310px;
+	left: 20px;
+	width: 270px;
+	height: 270px;;
+}
+#tile3{
+	top: 20px;
+	left: 310px;
+	width: 560px;
+	height: 560px;
+}
+#tile4{
+	top: 20px;
+	left: 890px;
+	width: 270px;
+	height: 270px;
+}
+#tile5{
+	top: 310px;
+	left: 890px;
+	width: 270px;
+	height: 270px;
+}
+#tile6{
+	top: 600px;
+	left: 20px;
+	width: 560px;
+	height: 270px;
+}
+#tile7{
+	top: 600px;
+	left: 600px;
+	width: 270px;
+	height: 270px;
+}
+#tile8{
+	top: 600px;
+	left: 890px;
+	width: 270px;
+	height: 270px;
+}
+
+/* fonts */
+
+.hero{
+	font-family: "m-1c";
+	font-size: 2.5em;
+	font-weight: 300;
+	font-style: normal;
+	margin-top: 110px;
+	margin-left: 40px;
+	margin-right: 40px;
+	color: gray;
+}
+
+.hero-bright{
+	color:white;
+}
+
+.action-title{
+	/*Use default... Helvetica, Arial, sans-serif*/
+	font-size:1.5em;
+	margin-top:28px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.action{
+	font-family: "m-1c";
+	font-size: 1.25em;
+	font-weight: 400;
+	color: lightgray;
+	margin-left: 20px;
+	margin-right: 20px;
+}
