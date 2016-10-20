@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Katrin Halum</title>
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div class="container-fluid" id="wrapper">
+  <nav class="navbar navbar-default">
+    <div class="container">
+    <nav class="navbar navbar-de">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html"><img style="top:0;position:absolute" src="images/logo.png" width="10%"/></a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active" class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Katrin
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="About Me.html">About Me</a></li>
+            <li><a href="likes.html">Likes</a></li>
+           
+        </ul>
+      </li>
+      <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">People
+      <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="family.html">Family</a></li>
+            <li><a href="friends.html">Friends</a></li>
+            <li><a href="workmates.html">Workmates</a></li>
+        </ul>
+      <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Experiences
+      <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="travel.html">Travels</a></li>
+            <li><a href="concert.html">Concerts</a></li>
+        </ul>
+      <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+  </div>
+</nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail"><img src="images/6.jpg" alt="Thumbnail Image 1" class="image-fill">
+          <div class="caption">
+            <h3>Clothes</h3>
+            <p>I am a big fan of fashion, I always want to dress nice in any occassion. There may be times that I feel exhausted picking the right combinations and feeling uncomfortable with some of my clothes but still I can manage to mix and match them.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail"><img src="images/7.jpg" alt="Thumbnail Image 1" class="image-fill">
+          <div class="caption">
+            <h3>Art and Craft</h3>
+            <p>It is my hobby doing diy's and other crafts. I always want to do this whenever I'm bored and to keep myself busy. Doing diy's makes me feel relax</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail"><img src="images/8.jpg" alt="Thumbnail Image 1" class="image-fill">
+          <div class="caption">
+            <h3>Books</h3>
+            <p>Reading books is one of my favorite past time, it takes me to a different world and enhances my imagination. I like stories that are unpredictable and unique, it interests me when there is a puzzle that needs to be solved.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+
+</div>
+
+<script src="js/jquery-1.11.2.min.js"></script>
+
+ 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
+
+

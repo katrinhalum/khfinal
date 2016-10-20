@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Katrin Halum</title>
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div class="container-fluid" id="wrapper">
+  <nav class="navbar navbar-default">
+    <div class="container">
+    <nav class="navbar navbar-de">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html"><img style="top:0;position:absolute" src="images/logo.png" width="10%"/></a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active" class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Katrin
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="About Me.html">About Me</a></li>
+            <li><a href="likes.html">Likes</a></li>
+           
+        </ul>
+      </li>
+      <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">People
+      <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="family.html">Family</a></li>
+            <li><a href="friends.html">Friends</a></li>
+            <li><a href="workmates.html">Workmates</a></li>
+        </ul>
+      <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Experiences
+      <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="travel.html">Travels</a></li>
+            <li><a href="concert.html">Concerts</a></li>
+        </ul>
+      <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+  </div>
+</nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail"><img src="images/a.jpg" alt="Thumbnail Image 1" class="image-fill">
+          <div class="caption">
+            <h3>Debut</h3>
+            <p>Birthday: June 22</p>
+            <p>Debut: August 30 </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail"><img src="images/b.jpg" alt="Thumbnail Image 1" class="image-fill">
+          <div class="caption">
+            <h3>Christmas</h3>
+            <p>December 25</p>
+            <p>Ayala Triangle </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail"><img src="images/c.jpg" alt="Thumbnail Image 1" class="image-fill">
+          <div class="caption">
+            <h3>Brother's oathtaking</h3>
+            <p>July 4</p>
+            <p> PICC- Mall of Asia</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail"><img src="images/d.jpg" alt="Thumbnail Image 1" class="image-fill">
+          <div class="caption">
+            <h3>Brothers</h3>
+            <p>November 2</p>
+            <p> Tagaytay </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail"><img src="images/e.jpg" alt="Thumbnail Image 1" class="image-fill">
+          <div class="caption">
+            <h3>And</h3>
+            <p>November 2</p>
+            <p> Tagaytay </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail"><img src="images/f.jpg" alt="Thumbnail Image 1" class="image-fill">
+          <div class="caption">
+            <h3>Cousins</h3>
+            <p>November 2</p>
+            <p> Tagaytay </p>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+
+</div>
+
+<script src="js/jquery-1.11.2.min.js"></script>
+
+ 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
+
+
